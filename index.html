@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src='script.js'></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Gneral Knowledge Quiz</h1>
+<h2>Personal details</h2>
+<form name="myForm2">
+  Name: <input type="text" name="zname">
+  <div id="error_name">
+    
+  </div><br>
+  Email: <input type='text' name = 'email' placeholder="example@example.com">
+  <div id="error_email">
+    
+  </div><br>
+  Age: <input type='number' name = 'age' min="0" max="140" step="1">
+  <div id="error_age">
+  
+  </div>
+  <h2>Quiz Questions</h2>
+  <p>Q1. Which of the following is the largest country by area?</p>
+  <input type="radio" name="radio" value="option1">China<br>
+  <input type="radio" name="radio" value="option2">USA<br>
+  <input type="radio" name="radio" value="option3">UK<br/>
+  <div id="error_radio">
+  
+  </div><br>
+  
+  <p>Q2. Which of the following is the capital city of the Central African Republic?</p>
+  <input type="radio" name="city" value="option1">Bangui<br>
+  <input type="radio" name="city" value="option2">N'Djamena<br>
+  <input type="radio" name="city" value="option3">Tripoli<br/>
+  <div id="error_city">
+  
+  </div><br>
+  <p>Q3. Which country emitted the most carbon dioxide in 2017: China, Russia, or the UK?</p>
+  Answer: <input type="text" name="question3">
+  <div id="error_qn3">
+  
+  </div><br>
+  <div id="total_score">
+  
+  </div><br>
+</form>
+<button type="button" onclick="validateForm();validateEmail();validateAge();validateRadio();validateCity();validateOpen();checkAnswers()">Submit</button>
+</body>
+</html>
