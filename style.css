@@ -1,0 +1,32 @@
+#error_name {
+  color: red;
+  font-size:12px;
+}
+#error_email {
+  color: red;
+  font-size:12px;
+}
+
+#error_age {
+  color: red;
+  font-size:12px;
+}
+
+#error_radio {
+  color: red;
+  font-size:12px;
+}
+
+#error_city {
+  color: red;
+  font-size:12px;
+}
+#error_qn3{
+  color: red;
+  font-size:12px;
+}
+
+#total_score{
+  color: red;
+  font-size:20px;
+}
